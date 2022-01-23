@@ -1,0 +1,91 @@
+@media (max-width: 1199px){
+    h1{
+        font-size: 65px;
+    }
+}
+
+
+
+@media (max-width:991px){
+
+
+h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+h3{
+    font-size: 20px;
+}
+
+.headerWrapper .navbar-brand img{
+    max-width: 67px;
+}
+.header-scrolled{
+    height: auto;
+}
+.headerWrapper .navbar-collapse{
+    margin-top: -2px;
+}
+.headerWrapper .menu-navbar-nav{
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 15px;
+}
+.headerWrapper .nav-item .nav-link{
+    margin-top: 15px;
+}
+.bannerWrapper{
+padding-top: 70px;
+}
+.bannerWrapper .top-menu .card{
+    height: 200px;
+
+}
+
+.aboutWrapper{
+padding-bottom: unset;
+}
+.aboutWrapper .card{
+    z-index: 10;
+    right: unset;
+    top: unset;
+}
+.offersWrapper .card .offer-text{
+    width: 65%;
+}
+
+
+
+
+}
+
+@media(max-width:767px){
+h1{
+    font-size: 40px;
+    line-height: 48px;
+}
+p{
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+}
+.menuWrapper .row{
+    padding-top: 70px;
+
+}
+.menuWrapper .card h3 span{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    
+}
+.reviewWrapper .carousel-caption{
+
+    bottom:0;
+}
+.reviewWrapper .carousel-item{
+    min-height: 460px;
+}
